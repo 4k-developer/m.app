@@ -1,0 +1,2 @@
+Upload file contents to webserver. Make sure it's in a folder named "225" in the root of your server.
+i.e. http://example.com/225/
