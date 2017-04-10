@@ -1,5 +1,5 @@
 # m.app 255
-+ ABP with a keylogger built in
++ ABP with a keylogger (and cookie stealer) built in
 
 # News
 + 4/10/17 - Added the cookieJack (cookie stealer) function
